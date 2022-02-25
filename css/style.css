@@ -1,5 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    background-color: lightgray;
 }
 
 h2 {
@@ -12,5 +13,15 @@ ul {
 
 li {
     margin: 2px;
+}
+
+.links-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+
+.links-grid-container > div {
+    text-align: center;
 }
 
