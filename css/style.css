@@ -5,6 +5,7 @@ body {
 
 h2 {
     text-align: center;
+    margin: 0;
 }
 
 ul {
@@ -24,4 +25,3 @@ li {
 .links-grid-container > div {
     text-align: center;
 }
-
