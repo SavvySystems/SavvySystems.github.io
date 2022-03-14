@@ -1,5 +1,5 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Open Sans,Verdana,sans-serif;
     background-color: lightgray;
 }
 
@@ -16,10 +16,21 @@ li {
     margin: 2px;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+    color: rebeccapurple;
+    font-size: 1.1em;
+}
+
 .links-grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 4px;
 }
 
 .links-grid-container > div {
